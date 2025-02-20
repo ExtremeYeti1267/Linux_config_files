@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 sudo apt update && sudo apt upgrade && sudo apt install gh gcc feh make xorg kitty cowsay neovim neofetch libxft-dev libx11-dev libxinerama-dev -y
+=======
+sudo apt update && sudo apt upgrade && sudo apt install gh gcc feh make xorg kitty cowsay neovim neofetch ranger libxft-dev libx11-dev libxinerama-dev -y
+>>>>>>> f3b5fafe5e823444a7e0fe9186a2b4602adfca6f
 
 git clone https://git.suckless.org/dwm && git clone https://git.suckless.org/dmenu
 
