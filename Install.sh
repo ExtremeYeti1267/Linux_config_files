@@ -10,6 +10,6 @@ mv config.h ~/dwm/config.h && cd ~/dwm/ && sudo make clean install
 touch ~/.remaps.sh
 touch ~/.xinitrc
 
-echo "exec dwm" >> ~/.xinitrc && echo "feh --bg-center ~/abstract.png" >> ~/.xinitrc && echo "xset -b" >> ~/.xinitrc
+echo "exec dwm" >> ~/.xinitrc && echo "feh --bg-center ~/abstract.jpg" >> ~/.xinitrc && echo "xset -b" >> ~/.xinitrc
 echo "source .remaps.sh" >> ~/.bashrc
 echo "alias cls=\"clear\"" >> ~/.remaps.sh && echo "alias exe=\"./EXE\"" >> ~/.remaps.sh && echo "alias EXE=\"./EXE\"" >> ~/.remaps.sh
