@@ -4,8 +4,8 @@ git clone https://git.suckless.org/dwm && git clone https://git.suckless.org/dme
 
 mv dwm ~/dwm && mv dmenu ~/dmenu && mv abstract.jpg ~/abstract.jpg
 
-mkdir -p ~/.config/kitty && mv kitty.conf ~/.config/kitty/kitty.config
-mv config.h ~/dwm/config.h && cd ~/dwm/ && sudo make clean install
+mkdir -p ~/.config/kitty && mv ~/Linux_config_files/kitty.conf ~/.config/kitty/kitty.config
+mv ~/Linux_config_files/config.h ~/dwm/config.h && cd ~/dwm/ && sudo make clean install
 
 touch ~/.remaps.sh
 touch ~/.xinitrc
