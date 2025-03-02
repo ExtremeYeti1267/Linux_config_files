@@ -7,7 +7,13 @@ cd ~/dwm && sudo make clean install && cd ~/dmenu && sudo make clean install
 touch ~/.remaps.sh
 touch ~/.xinitrc
 
+<<<<<<< HEAD
 echo "exec dwm" >> ~/.xinitrc && echo "feh --bg-fill ~/wallpaper/abstract.jpg" >> ~/.xinitrc && echo "xset -b" >> ~/.xinitrc
+=======
+feh --bg-fill ~/wallpaper/abstract.jpg
+
+echo "~/./fehbg" >> ~/.xinitrc && echo "exec dwm" >> ~/.xinitrc && echo "xset -b" >> ~/.xinitrc
+>>>>>>> b7d972d (Attempted feh fix)
 echo "source .remaps.sh" >> ~/.bashrc
 echo "alias cls=\"clear\"" >> ~/.remaps.sh && echo "alias exe=\"./EXE\"" >> ~/.remaps.sh && echo "alias EXE=\"./EXE\"" >> ~/.remaps.sh
 
