@@ -4,7 +4,7 @@ mv wallpaper ~/wallpaper && mv .config ~/.config
 
 cd ~/ && git clone https://git.suckless.org/dwm && git clone https://git.suckless.org/dmenu
 
-mv ~/Linux_config_files/dwmconfig.h ~/dwm/config.h && mv ~/Linux_config_files/dmenuconfig.h ~/dmenu/config.h && mv .remaps.sh ~/.remaps.sh
+mv ~/Linux_config_files/dwmconfig.h ~/dwm/config.h && mv ~/Linux_config_files/dmenuconfig.h ~/dmenu/config.h && mv ~/Linux_config_files/.remaps.sh ~/.remaps.sh
 
 cd ~/dwm && sudo make clean install && cd ~/dmenu && sudo make clean install 
 
