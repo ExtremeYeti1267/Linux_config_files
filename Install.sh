@@ -1,4 +1,4 @@
-sudo apt update && sudo apt upgrade && sudo apt install gh gcc feh make xorg kitty cowsay neovim neofetch ranger chromium libxft-dev libx11-dev libxinerama-dev -y
+sudo apt update && sudo apt upgrade && sudo apt install gh gcc feh make xorg kitty htop cowsay neovim neofetch ranger chromium libxft-dev libx11-dev libxinerama-dev -y
 
 mkdir ~/Programming
 
