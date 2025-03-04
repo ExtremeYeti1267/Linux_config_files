@@ -10,7 +10,7 @@ mv ~/Linux_config_files/dwmconfig.h ~/dwm/config.h && mv ~/Linux_config_files/dm
 
 cd ~/dwm && sudo make clean install && cd ~/dmenu && sudo make clean install 
 
-echo "feh --bg-centered ~/wallpaper/abstract.jpg &" >> ~/.xinitrc && echo "xset -b &" >> ~/.xinitrc && echo "exec dwm" >> ~/.xinitrc 
+echo "feh --no-fehbg --bg-centered ~/wallpaper/abstract.jpg &" >> ~/.xinitrc && echo "xset -b &" >> ~/.xinitrc && echo "exec dwm" >> ~/.xinitrc 
 echo "source .remaps.sh" >> ~/.bashrc
 
 sudo reboot
