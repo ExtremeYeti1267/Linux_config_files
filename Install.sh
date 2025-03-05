@@ -4,7 +4,7 @@ sudo apt update && sudo apt upgrade
 
 #   Installing required setup repos   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-sudo apt install gcc feh make xorg libxft-dev libx11-dev libxinerama-dev -y
+sudo apt install gcc feh picom make xorg libxft-dev libx11-dev libxinerama-dev -y
 
 #   Installing other repos    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
