@@ -37,7 +37,7 @@ cd ~/picom && meson setup --buildtype=release build && ninja -C build && ninja -
 
 #   File creation & appends   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-echo "feh --bg-fill -z ~/wallpaper/ &" >> ~/.xinitrc && echo "xset -b &" >> ~/.xinitrc && echo "exec dwm" >> ~/.xinitrc 
+echo "feh --bg-fill -z ~/wallpaper/ &" >> ~/.xinitrc && echo "exec --no-startup-id picom --config ~/.config/picom/picom.conf -b" >> ~/.xinitrc && echo "xset -b &" >> ~/.xinitrc && echo "exec dwm" >> ~/.xinitrc 
 echo "source ~/.remaps.sh" >> ~/.bashrc
 
 #   End of install    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
