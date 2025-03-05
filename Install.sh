@@ -26,10 +26,14 @@ mv ~/Linux_config_files/.remaps.sh ~/.remaps.sh
 mv ~/Linux_config_files/wallpaper ~/wallpaper
 mv ~/Linux_config_files/.config ~/.config
 
-#   Building cloned applications    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#   Building suckless applications    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 cd ~/dwm && sudo make clean install
 cd ~/dmenu && sudo make clean install 
+
+#   Building picom    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+cd ~/picom && meson setup --buildtype=release build && ninja -C build && ninja -C build install
 
 #   File creation & appends   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
