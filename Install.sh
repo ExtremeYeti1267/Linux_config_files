@@ -4,7 +4,7 @@ sudo apt update && sudo apt upgrade
 
 #   Installing required setup repos   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-sudo apt install python3 meson ninja-build gcc feh make xorg libxft-dev libx11-dev libxinerama-dev -y
+sudo apt install python3 meson cmake ninja-build gcc feh make xorg libxft-dev libx11-dev libxinerama-dev -y
 
 #   Installing picom dependancies   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
