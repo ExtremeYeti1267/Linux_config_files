@@ -1,7 +1,3 @@
-#   Creating script variables	>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-TOOL_INSTALL_STATUS=0
-
 #   Updating APT repos	  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 sudo apt update && sudo apt upgrade
@@ -12,7 +8,7 @@ sudo apt install python3 meson ninja-build gcc feh make xorg libxft-dev libx11-d
 
 #   Installing other repos    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-sudo apt install kitty htop cowsay neovim neofetch ranger chromium gh -y && TOOL_INSTALL_STATUS=1 &
+sudo apt install kitty htop cowsay neovim neofetch ranger chromium gh -y
 
 #   Creating directories	  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -32,7 +28,8 @@ mv ~/Linux_config_files/.config ~/.config
 
 #   Building cloned applications    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-cd ~/dwm && sudo make clean install && cd ~/dmenu && sudo make clean install 
+cd ~/dwm && sudo make clean install
+cd ~/dmenu && sudo make clean install 
 
 #   File creation & appends   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -40,23 +37,5 @@ echo "feh --bg-fill -z ~/wallpaper/ &" >> ~/.xinitrc && echo "xset -b &" >> ~/.x
 echo "source ~/.remaps.sh" >> ~/.bashrc
 
 #   End of install    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-while [ $TOOL_INSTALL_STATUS -ne 1 ]
-do
-  clear
-  echo "Finalising install"
-  sleep 2s
-done
-
-clear
-echo "Install complete.  Rebooting in 3"
-sleep 1s
-clear
-echo "Install complete.  Rebooting in 2"
-sleep 1s
-clear
-echo "install complete.  Rebooting in 1"
-sleep 1s
-clear
 
 sudo reboot
