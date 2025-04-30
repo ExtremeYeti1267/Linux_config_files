@@ -8,7 +8,7 @@ sudo apt install gcc python3 python3-pip feh picom make xorg libxft-dev libx11-d
 
 #   Installing other repos    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-sudo apt install tree kitty htop cowsay neovim neofetch ranger chromium gh -y
+sudo apt install tree kitty htop cowsay neovim neofetch ranger chromium gh exuberant-ctags -y
 
 #   Creating directories	  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
