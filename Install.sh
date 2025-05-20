@@ -4,11 +4,7 @@ sudo apt update && sudo apt upgrade
 
 #   Installing required setup repos   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-sudo apt install gcc python3 python3-pip feh picom make xorg libxft-dev libx11-dev libxinerama-dev -y
-
-#   Installing other repos    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-sudo apt install tree kitty htop cowsay neovim neofetch ranger chromium gh exuberant-ctags -y
+sudo apt install gcc python3 python3-pip feh picom make xorg libxft-dev libx11-dev libxinerama-dev tree kitty htop cowsay neovim neofetch ranger chromium gh exuberant-ctags -y
 
 #   Creating directories	  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
