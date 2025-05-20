@@ -25,6 +25,7 @@ mv ~/Linux_config_files/dmenuconfig.h ~/dmenu/config.h
 mv ~/Linux_config_files/.remaps.sh ~/.remaps.sh
 mv ~/Linux_config_files/wallpaper ~/wallpaper
 mv ~/Linux_config_files/.config ~/.config
+mv ~/Linux_config_files/.feh ~/.feh
 
 #   Building suckless applications    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
